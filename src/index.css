@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+  
+  .transform-translate-z-32 {
+    transform: translateZ(8rem);
+  }
+  
+  .transform-rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+  
+  .transform-rotate-y-90 {
+    transform: rotateY(90deg);
+  }
+  
+  .transform-rotate-y--90 {
+    transform: rotateY(-90deg);
+  }
+  
+  .transform-rotate-x-90 {
+    transform: rotateX(90deg);
+  }
+  
+  .transform-rotate-x--90 {
+    transform: rotateX(-90deg);
+  }
+  
+  .translate-z-32 {
+    transform: translateZ(8rem);
+  }
+  
+  .animate-spin-slow {
+    animation: spin 10s linear infinite;
+  }
+}
