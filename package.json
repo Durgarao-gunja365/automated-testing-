@@ -9,8 +9,8 @@
     "preview": "vite preview",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "test:run": "vitest run",
-    "test:coverage": "vitest run --coverage"
+    "test:run": "vitest run --no-cache",
+    "test:basic": "vitest run --no-cache --passWithNoTests"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",

@@ -6,11 +6,10 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
-    setupFiles: './src/setupTests.js',
-    // Add these lines to handle Three.js issues
-    server: {
-      deps: {
-        inline: ['@react-three/fiber', '@react-three/drei', 'three']
+    setupFiles: './src/setupTests.jsx', // Updated to .jsx
+    environmentOptions: {
+      jsdom: {
+        url: 'http://localhost:3000'
       }
     }
   }

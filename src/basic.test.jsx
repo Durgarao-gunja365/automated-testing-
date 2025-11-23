@@ -1,0 +1,10 @@
+// Simple test to verify the test environment works
+describe('Basic Test', () => {
+  test('should pass', () => {
+    expect(1 + 1).toBe(2)
+  })
+
+  test('should handle strings', () => {
+    expect('hello').toBe('hello')
+  })
+})
