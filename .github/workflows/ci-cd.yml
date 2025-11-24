@@ -25,7 +25,7 @@ jobs:
         run: npm ci
 
       - name: Run basic tests
-        run: npm run test:app
+        run: npm run test:run
 
       - name: Build project
         run: npm run build
