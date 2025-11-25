@@ -40,7 +40,7 @@ const Home = () => {
           >
             <h1 className="text-6xl font-bold leading-tight">
               <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
-                Modern DevOps by Durgarao
+                Modern DevOps
               </span>
               <br />
               <span className="text-white">With React & 3D</span>
